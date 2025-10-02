@@ -563,3 +563,67 @@ footer{
         font-size: 2.3em;
     }
 }
+
+@media (max-width: 600px) {
+    nav {
+        padding: 1em 3%;
+    }
+    .logo {
+        font-size: 1.2em;
+    }
+    section {
+        padding: 6em 3% 2em 3%;
+    }
+    #home img {
+        width: 110px;
+        height: 110px;
+    }
+    .info-box h1 {
+        font-size: 1.3em;
+    }
+    .info-box h3 {
+        font-size: 1em;
+    }
+    .about-box h1, .section-header {
+        font-size: 1.3em;
+    }
+    .about-box {
+        gap: 1em;
+    }
+    .skills {
+        gap: 1em;
+    }
+    .btn, .btn-box .btn {
+        font-size: 0.95em;
+        padding: 0.5em 1em;
+    }
+    .projects-container, .experience-container, .certifications-container {
+        gap: 1em;
+    }
+    .box, .experience-item, .cert-item {
+        padding: 1em;
+        font-size: 0.95em;
+    }
+    .reference-section {
+        gap: 1em;
+    }
+    footer {
+        padding: 2em 3%;
+        gap: 1em;
+    }
+    .col-left, .col-right {
+        min-width: unset;
+        font-size: 0.95em;
+    }
+    .social-icons a {
+        font-size: 1.5em;
+    }
+    form {
+        padding: 0 0.5em;
+    }
+    .input-box input, .input-box textarea {
+        font-size: 0.95em;
+        padding: 0.6em;
+    }
+}
+}
